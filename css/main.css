@@ -1,0 +1,23 @@
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.link {
+	width: 30%;
+	padding: 10px 0px;
+	border: 1px solid grey;
+    border-radius: 1rem;
+	text-align: center;
+}
+
+.active {
+	background-color: steelblue;
+	color: white;
+}
+
+.hidden {
+	visibility: hidden;
+}
